@@ -31,7 +31,7 @@ const ReadComic = () => {
 
         try {
             // Fetch chapter pages
-            const response = await axios.get(`https://www.sankavollerei.com/comic/chapter${chapterLink}`)
+            const response = await axios.get(`https://www.sankavollerei.com/comic/chapter/${chapterLink}`)
             
             console.log("Fetched chapter pages:", response.data)
             
